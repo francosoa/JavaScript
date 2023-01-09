@@ -16,3 +16,13 @@ const notas = [10, 6.5, 8, 7.5];
 const media = (notas[0] + notas[1]+ notas[2] + notas[3]) / notas.length;
 
 console.log(media);
+
+/*
+Adicionando elementos:
+*/
+
+const notes = [10, 6, 8];
+notes.push(7); //adiciona um novo elemento ao array
+
+const ava = (notes[0] + notes[1]+ notes[2] + notes[3]) / notes.length
+console.log(ava)

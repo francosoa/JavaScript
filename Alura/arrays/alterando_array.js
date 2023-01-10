@@ -40,3 +40,13 @@ const nomes = ["João", "Ana", "Caio", "Lara", "Marjorie", "Leo"];
 
 nomes.splice(1, 2, "Rodrigo"); // O slice pede o index, qnts elementos vai remover a partir do index, e posso passar um terceiro paramentro
 console.log(nomes)
+
+/* 
+Concatenando os arrays:
+*/
+
+const salaJS = ["Evaldo", "Camis", "Mari"];
+const salaPython = ["Ju", "Leo", "Raquel"];
+
+const unificada = salaJS.concat(salaPython);
+console.log(unificada);

@@ -50,3 +50,16 @@ const salaPython = ["Ju", "Leo", "Raquel"];
 
 const unificada = salaJS.concat(salaPython);
 console.log(unificada);
+
+/* 
+Lista com duas dimensões:
+*/
+
+const students = ["João", "Juliana", "Ana", "Caio"];
+const medias = [10, 8, 7.5, 9];
+
+const mediasEEstudantes = [students, medias]; //será criado uma lista com duas dimensões
+
+//Os comandos abaixo acessam os valores dentro da lista
+console.log(`Aluno da posição 0 ${mediasEEstudantes[0][0]}`, `nota do aluno ${mediasEEstudantes[1][0]}`
+)

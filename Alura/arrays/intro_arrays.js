@@ -24,5 +24,13 @@ Adicionando elementos:
 const notes = [10, 6, 8];
 notes.push(7); //adiciona um novo elemento ao array
 
-const ava = (notes[0] + notes[1]+ notes[2] + notes[3]) / notes.length
-console.log(ava)
+const ava = (notes[0] + notes[1]+ notes[2] + notes[3]) / notes.length;
+console.log(ava);
+
+/*
+Deletando elementos:
+*/
+
+const delete_notes = [10, 6, 8, 5.5, 10];
+delete_notes.pop(); // Deleta o último elemento de uma lista
+

@@ -1,1 +1,0 @@
-// Se eu cria uma variável sem passar se é let/var/const, automaticamente o JS cria a variável como var

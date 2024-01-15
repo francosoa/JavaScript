@@ -14,3 +14,8 @@ if (forma === 'retangulo') {
 }
 
 console.log(area)
+
+///////////////////////////////////////////////////////////////////////
+//const não altera o valor da variuável
+
+
